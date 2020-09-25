@@ -1,0 +1,59 @@
+#headerT {
+    background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60") center center / cover no-repeat;
+    /* background: url("imgs/header.jpeg") center center / cover no-repeat; */
+}
+
+#headerA {
+    background-image:
+        linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.1) ),
+        url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* background: url("imgs/header.jpeg") center center / cover no-repeat; */
+}
+
+#headerE {
+    background-image:
+        linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.1) ),
+        url("https://images.unsplash.com/photo-1516383607781-913a19294fd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80");
+
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* background: url("imgs/header.jpeg") center center / cover no-repeat; */
+}
+
+hr.style-two {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(15, 33, 46, 0.5), rgba(0, 0, 0, 0));
+
+}
+
+.text {
+    font-family: 'Lora', serif;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+.fit {
+    height: 8em;
+}
+.discription_fit {
+    height: 100%;
+}
+.card-text, .card-title {
+    text-align: center;
+}
+
+.info {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.form {
+    font-family: 'Raleway', sans-serif;
+}
